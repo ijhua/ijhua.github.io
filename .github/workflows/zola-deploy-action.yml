@@ -29,13 +29,13 @@
 
 name: Build website
 
-on:
-  push:
-    branches:
-      - source
-  pull_request:
-    branches:
-      - source
+on: push
+  # push:
+  #   branches:
+  #     - source
+  # pull_request:
+  #   branches:
+  #     - source
 
 jobs:
   build:
