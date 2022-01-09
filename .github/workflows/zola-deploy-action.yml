@@ -51,7 +51,7 @@ jobs:
     - name: Install zola
       run: brew install zola
     - name: Get theme
-      run: git submodule https://github.com/RatanShreshtha/DeepThought.git themes/DeepThought 
+      run: git submodule add https://github.com/RatanShreshtha/DeepThought.git themes/DeepThought 
     - name: Generate HTML
       run: zola build
     - name: Commit and push to target branch
