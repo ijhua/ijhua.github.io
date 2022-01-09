@@ -48,7 +48,7 @@ avatar = "/images/whiterocks.jpg"
 
 # Social links
 [extra.social]
-#email = "hua.isabelle (AT) GMAIL"
+#email = ""
 #facebook = "<facebook_username>"
 github = "ijhua"
 #gitlab = "<gitlab_username>"
@@ -59,7 +59,7 @@ linkedin = "isabellejh"
 #instagram = "<instagram_usernaem>"
 #behance = "<behance_username>"
 #google_scholar = "<googlescholar_userid>"
-#orcid = "<orcid_userid>"
+orcid = "0000-0003-1211-8228"
 
 
 # To add google analytics
