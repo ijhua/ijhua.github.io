@@ -77,10 +77,10 @@ jobs:
   build:
     name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@master
+        uses: actions/checkout@main
       - name: 'Build and deploy'
         uses: shalzz/zola-deploy-action@master
         env:
