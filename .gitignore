@@ -80,4 +80,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows
 
 public/
+
+todo.txt
 >>>>>>> 75268ac (rebuild in zola)
