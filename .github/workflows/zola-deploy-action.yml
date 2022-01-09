@@ -44,7 +44,7 @@ jobs:
     runs-on: macos-10.15
     if: github.ref == 'refs/heads/source'
     env:
-      TARGET_BRANCH: master
+      TARGET_BRANCH: main
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
