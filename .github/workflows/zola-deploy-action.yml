@@ -7,9 +7,9 @@ jobs:
       - name: 'checkout'
         uses: actions/checkout@v2
       - name: 'build'
-        uses: ijhua/zola-deploy-action@v0.13.0
+        uses: shalzz/zola-deploy-action@v0.13.0
         env:
-          PAGES_BRANCH: main
+          PAGES_BRANCH: gh-pages
           BUILD_DIR: .
           TOKEN: ${{ secrets.TOKEN }}
           # BUILD_ONLY: true
@@ -20,9 +20,9 @@ jobs:
       - name: 'checkout'
         uses: actions/checkout@v2
       - name: 'build and deploy'
-        uses: ijhua/zola-deploy-action@v0.13.0
+        uses: shalzz/zola-deploy-action@v0.13.0
         env:
-          PAGES_BRANCH: main
+          PAGES_BRANCH: master
           BUILD_DIR: .
           TOKEN: ${{ secrets.PUBLIC_TOKEN }}
           REPOSITORY: ijhua/ijhua.github.io
