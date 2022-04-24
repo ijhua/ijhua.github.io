@@ -29,43 +29,43 @@
                             {{ page.title }}
                         </a>
                     </h2>
-                    <p class="subtitle">{{ page.description }}</p>
-                    <!--<div class="columns is-multiline is-gapless">
+                    <!---<p class="subtitle">{{ page.description }}</p>
+                    <div class="columns is-multiline is-gapless">
             <div class="column is-8">
               {{ macros::page_publish_metadata(page=page) }}
             </div>
             <div class="column is-4 has-text-right-desktop">
               {{ macros::page_content_metadata(page=page) }}
             </div>
-          </div>
+          </div>--->
 
-
-          -->
-
-                    <!--<div class="content mt-2">
-            {{ page.summary | safe }}
-            <a class="has-text-danger-dark has-text-weight-semibold" href='{{ page.permalink }}'>
+          <div class="content mt-2">
+            
+            <!---
+                {{ page.summary | safe }}
+                <a class="has-text-danger-dark has-text-weight-semibold" href='{{ page.permalink }}'>
               Read More
               <span class="icon is-small">
                 <i class="fas fa-arrow-right fa-xs"></i>
               </span>
-            </a>
+            </a>--->
+            {{ page.content | safe }}
           </div>
 
-          -->
 
-                    <div class="columns">
-                        <div class="column">
-                            {% if page.taxonomies.categories %}
-                            {{ macros::render_categories(categories=page.taxonomies.categories) }}
-                            {% endif %}
-                        </div>
-                        <div class="column has-text-right-desktop">
-                            {% if page.taxonomies.tags %}
-                            {{ macros::render_tags(tags=page.taxonomies.tags) }}
-                            {% endif %}
-                        </div>
-                    </div>
+        <div class="columns">
+            <div class="column">
+                {% if page.taxonomies.categories %}
+                {{ macros::render_categories(categories=page.taxonomies.categories) }}
+                {% endif %}
+            </div>
+            <div class="column has-text-right-desktop">
+                {% if page.taxonomies.tags %}
+                {{ macros::render_tags(tags=page.taxonomies.tags) }}
+                {% endif %}
+            </div>
+        </div>
+
                 </article>
                 {% endfor %}
             </div>

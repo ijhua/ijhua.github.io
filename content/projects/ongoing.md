@@ -3,11 +3,13 @@ title = "Ongoing Projects"
 date = 2022-01-08
 +++
 
-## Medical School Admissions Data
+## Medical School Admissions Transparency and Mentorship Project
 
-Going through the medical school application process, particularly for MD/PhD programs, made me curious about trends in admissions. I've begun doing analysis of historical public data from the AAMC in [this repo](https://github.com/ijhua/aamc_admissions). 
+Going through the medical school application process during a pandemic let me connect with a likeminded community of aspiring physician-scientists. Together, we've formed [Docs2Be](https://docs2be.org/), an organization whose goal is to make medical school admissions more transparent and accessible. 
 
-It's also been a great way to learn and practice data processing and visualization. Preliminary graphs and figures are available [at this website (still undergoing construction)](https://ijhua.github.io/aamc_admissions/). 
+Part of this includes creating [CycleTrack](https://cycletrack.docs2be.org/), which makes application tracking public and free. Our repository is located [here](https://github.com/RunningMSN/CycleTrack). 
+
+I've also done [some analyses](https://github.com/ijhua/aamc_live) on the available FACTS data from the AAMC which can be seen on [this website](https://docs2be.org/admitdata/).
 
 
 ## Words and Numbers Game
