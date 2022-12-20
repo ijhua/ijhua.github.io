@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ijhua.github.io/sitemap.xml
