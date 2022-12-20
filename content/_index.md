@@ -1,5 +1,4 @@
 +++
 title = "Welcome"
-description = ""
+description = "Hi! Thanks for visiting my website."
 +++
-
