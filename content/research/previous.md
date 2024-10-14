@@ -1,7 +1,11 @@
 +++
 title = "Previous Work"
 date = 2022-01-07
+updated = 2024-10-14
 +++
+
+## Visual processing
+My first lab rotation was in August 2023, in [Dan Denman's lab](https://denmanlab.github.io/) in the Department of Neuroscience. Over the 5 weeks, I used a Neuropixels platform developed by the Denman lab to obtain high-density recordings from multiple areas implicated in visual processing in awake mice to investigate dynamics of communication between these populations. 
 
 ## Spinal Circuits and Plasticity
 I was a postbaccalaureate fellow in [Ariel Levine's lab](https://research.ninds.nih.gov/levine-lab) at the National Institutes of Health. I am particularly interested in understanding how the spinal cord contributes to the control of movement. I contributed to numerous projects, including [a review of genetic tools for studying the cellular basis of behavior](https://doi.org/10.1016/j.expneurol.2021.113879), [an atlas of single cell data of the mouse spinal cord after injury](https://doi.org/10.1038/s41467-022-33184-1), and a cellular taxonomy of the adult human spinal cord (in press). 
